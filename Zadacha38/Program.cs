@@ -11,17 +11,7 @@ for (int i = 0; i < array.Length; i++)
     Console.Write(array[i] + " ");
 } 
 
-
-/*
-int[] array = new int[new Random().Next(2, 10)];
-for (int i = 0; i < array.Length; i++)
-{
-    array[i] = new Random().Next(-10, 11);
-    Console.Write(array[i] + " ");
-}
-*/
 Console.WriteLine();
-
 
 double Difference(double[] array)
 {
